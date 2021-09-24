@@ -1,0 +1,29 @@
+Could not extract a String from KeyPath Swift.KeyPath<RangerCRMSwiftUI.CoreDataAccountModel, Swift.ObjectIdentifier>
+
+----------------------------------------
+
+CrashError: RangerCRMSwiftUI crashed
+
+RangerCRMSwiftUI crashed. Check ~/Library/Logs/DiagnosticReports for crash logs from your application.
+
+Process: RangerCRMSwiftUI[31993]
+Date/Time: 2021-09-24 00:51:34 +0000
+Log File: <none>
+
+Application Specific Information:
+     [
+        dyld4 config: DYLD_ROOT_PATH=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot DYLD_LIBRARY_PATH=/Users/tylerwatt_1/Desktop/RangerCRM-SwiftUI/DerivedData/RangerCRM SwiftUI/Build/Intermediates.noindex/Previews/RangerCRM SwiftUI 2/Products/Debug-iphonesimulator DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot//System/Library/PrivateFrameworks/PreviewsInjection.framework/PreviewsInjection DYLD_FRAMEWORK_PATH=/Users/tylerwatt_1/Desktop/RangerCRM-SwiftUI/DerivedData/RangerCRM SwiftUI/Build/Intermediates.noindex/Previews/RangerCRM SwiftUI 2/Products/Debug-iphonesimulator 
+        Foundation/NSObject.swift:124: Fatal error: Could not extract a String from KeyPath Swift.KeyPath<RangerCRMSwiftUI.CoreDataAccountModel, Swift.ObjectIdentifier>
+         
+        CoreSimulator 776.3 - Device: iPhone 12 mini (EC3578AC-0788-468C-90AA-077F6BC1E585) - Runtime: iOS 15.0 (19A339) - DeviceType: iPhone 12 mini
+        
+    ]
+
+==================================
+
+|  MessageSendFailure: Message send failure for send previewInstances message to agent
+|  
+|  ==================================
+|  
+|  |  RemoteHumanReadableError: Cannot send message on <UVAgentPreviewServiceServerConnection: 0x6000004062e0>: connection has invalidated
+|  |  
