@@ -1,0 +1,7 @@
+This is what appears next an @FetchRequest:
+Thread 1: Fatal error: Could not extract a String from KeyPath Swift.KeyPath<RangerCRMSwiftUI.CoreDataAccountModel, Swift.ObjectIdentifier>
+
+This is the output:
+Foundation/NSObject.swift:124: Fatal error: Could not extract a String from KeyPath Swift.KeyPath<RangerCRMSwiftUI.CoreDataAccountModel, Swift.ObjectIdentifier>
+2021-09-23 17:54:40.709247-0700 RangerCRMSwiftUI[32191:1137352] Foundation/NSObject.swift:124: Fatal error: Could not extract a String from KeyPath Swift.KeyPath<RangerCRMSwiftUI.CoreDataAccountModel, Swift.ObjectIdentifier>
+(lldb) 
